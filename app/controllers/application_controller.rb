@@ -18,4 +18,4 @@ class Dog
   
 end
 
-dog1 = Dog.new("rudolph", "mastiff", 2)
+dog1 = Dog.new #("rudolph", "mastiff", 2)
