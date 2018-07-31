@@ -13,9 +13,15 @@ end
 
 
 class Dog
-  
+    
   attr_accessor :name, :breed, :age
+  
+  def initialize(name,breed,age)
+    @name = name
+    @breed = breed
+    @age = age
+  end
   
 end
 
-dog1 = Dog.new #("rudolph", "mastiff", 2)
+dog1 = Dog.new("rudolph", "mastiff", 2)
