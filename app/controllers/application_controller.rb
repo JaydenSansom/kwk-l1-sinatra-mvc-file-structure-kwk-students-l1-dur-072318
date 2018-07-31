@@ -8,12 +8,13 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
-end
-
-class Dog
+  
+  class Dog
   
   attr_accessor :name, :breed, :age
   
 end
 
 dog1 = Dog.new("rudolph", "mastiff", 2)
+end
+
